@@ -1,0 +1,18 @@
+  
+  
+    if we want to manually retrieve a bean (object) from the ApplicationContext, there are a few common ways to achieve this
+  
+    1) Using BeanFactory (less common with annotations)
+    
+    BeanFactory factory = new AnnotationConfigApplicationContext(AppConfig.class);
+    MyBean myBean = factory.getBean(MyBean.class);
+    
+    2)Using ApplicationContext.getBean()
+    // By Bean Name
+   MyBean myBean1 = (MyBean) context.getBean("myBean");
+   
+   3) Using a Custom Bean Utility Class
+   
+   
+   
+   
