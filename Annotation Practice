@@ -1,0 +1,6 @@
+. **Building REST APIs**
+   - ` `@Controller`
+   - HTTP methods (`@GetMapping`, `@PostMapping`, etc.)
+   - Request/response handling (`@RequestBody`, `@ResponseBody`)
+   - Path variables (`@PathVariable`) and request parameters (`@RequestParam`)
+    
